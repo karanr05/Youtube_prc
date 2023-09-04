@@ -1,15 +1,12 @@
+<img src="https://1000logos.net/wp-content/uploads/2017/05/Color-YouTube-logo.jpg" alt="Alt text" width="750" title="Optional title">
 
 # Get YouTube Subscribers - Backend Capstone Project
 1. First **install npm dependencies** of **express** and **mongoose** using `npm install` command.
 2. **Start the backend server** using `npm start` or `node src/index.js` command.
 3. **We are using MONGODB CLOUD for database**
 
-## Project Created by
-1. Ashen A 
-2. Karan R
-
 ## HTTP request methods used in the project
-1. GET http://localhost:3000/ → The client will see the “Hello User!” message which is used to verify that application is working properly.
+1. GET http://localhost:3000/ → The client will see the “(Ashen-Karan)” message which is used to verify that application is working properly.
 
 2. GET http://localhost:3000/subscribers → When the user hit this, **endpoint /subscribers**, the client will **get an array of all subscribers in JSON format** from the database where the data is stored in local MongoDB database.
 
@@ -21,5 +18,19 @@
 
 6. GET http://localhost:3000/something → when the user hit the unwanted route which is not mentioned above (which is used to handle all other requests), they will get an error message like Route not found in JSON format with an 404 error status code.
 
+## Dependencies
+The following dependencies are required to run the Get YouTube Subscribers :
+```bash
+NodeJs
+ExpressJs
+Mongoose
+nodemon
+```
 
+## Project Created by
+1. Ashen A 
+2. Karan R
+3. 
 
+## Demo
+[Click here to Visit Site](https://backend-prc-ashen78.onrender.com/).
