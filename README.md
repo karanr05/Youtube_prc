@@ -30,7 +30,6 @@ nodemon
 ## Project Created by
 1. Ashen A 
 2. Karan R
-3. 
 
 ## Demo
 [Click here to Visit Site](https://backend-prc-ashen78.onrender.com/).
