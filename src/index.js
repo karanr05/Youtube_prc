@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to DATABASE
-const DATABASE_URL = "mongodb+srv://karan55:Welcome123@cluster01.sizlkfs.mongodb.net/test";
+const DATABASE_URL = "mongodb+srv://karanramalingam:karanr55@backend-api.wcdnuxu.mongodb.net/";
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
