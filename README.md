@@ -6,7 +6,7 @@
 3. **We are using MONGODB CLOUD for database**
 
 ## HTTP request methods used in the project
-1. GET http://localhost:3000/ → The client will see the “(Ashen-Karan)” message which is used to verify that application is working properly.
+1. GET http://localhost:3000/ → The client will see the “(Hello User)” message which is used to verify that application is working properly.
 
 2. GET http://localhost:3000/subscribers → When the user hit this, **endpoint /subscribers**, the client will **get an array of all subscribers in JSON format** from the database where the data is stored in local MongoDB database.
 
